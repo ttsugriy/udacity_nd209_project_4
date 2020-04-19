@@ -57,17 +57,17 @@ void process_image_callback(const sensor_msgs::Image img)
 			if (xpos < third_limit)
 			{
 				// the ball is in the right third of the screen
-				d = DriveDirection::LEFT;
+				dir = DriveDirection::LEFT;
 			}
 			else if (xpos >= third && xpos <= third * 2)
 			{
 				// the ball is in the center of the screen
-				d = DriveDirection::FORWARD;
+				dir = DriveDirection::FORWARD;
 			}
 			else
 			{
 				// the ball is on the right of the center
-				d = DriveDirection::RIGHT;
+				dir = DriveDirection::RIGHT;
 			}
 			break;
 		}

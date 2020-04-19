@@ -54,7 +54,7 @@ void process_image_callback(const sensor_msgs::Image img)
 		if (img.data[i * 3] + img.data[i * 3 + 1] + img.data[i * 3 + 2] == 255 * 3)
 		{
 			int xpos = i % img.width;
-			if (xpos < third_limit)
+			if (xpos < third)
 			{
 				// the ball is in the right third of the screen
 				dir = DriveDirection::LEFT;

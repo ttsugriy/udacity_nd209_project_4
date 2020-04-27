@@ -27,3 +27,8 @@ To launch AMCL:
 ```
 catkin_ws/src$ roslaunch my_robot amcl.launch
 ```
+
+To launch teleop packae that allows controlling the robot
+```
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```

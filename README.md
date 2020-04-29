@@ -9,7 +9,7 @@ catkin_ws/src$ catkin_init_workspace
 ```
 and checkout this repository into its `src` directory
 ```bash
-catkin_ws/src$ git clone https://github.com/ttsugriy/udacity_nd209_project_3.git .
+catkin_ws/src$ git clone https://github.com/ttsugriy/udacity_nd209_project_4.git .
 ```
 
 Once workspace and sources are in place, the project can be built using `catkin`:
